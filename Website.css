@@ -1,0 +1,203 @@
+
+.col-md-8.background{
+   background-image: url(images/background.png);
+   
+}
+.social-icons{
+  background: #f2f2f2;
+}
+.carousel-control-next-icon{
+  background-color:#2c3e50;
+  
+}
+.carousel-control-prev-icon{
+  background-color: #2c3e50;
+}
+.carousel-indicators .active{
+  background-color: black;
+}
+.profile-picture{
+  text-align: center;
+  background: #e6e6e6;
+  height: 200px;
+  
+}
+.container-fluid{
+  height: 600px;
+  
+}
+.profilepicture{
+  border-radius: 50%;
+  padding: 10px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 250px;
+  height: 200px;
+}
+
+
+
+.collapse.navbar-collapse.display{
+  background:#2c3e50;
+  top: 0px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right:20px;
+  margin: 0px;
+   
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  color: #5CB4D6;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #5CB4D6;
+}
+
+#icons {
+  font-size:36px;
+  color:#5CB4D6;
+}
+.icons{
+  text-align: center;
+
+}
+.title{
+  color: white;
+  font-style: normal;
+  font-size: 22px;
+}
+
+img{
+  width: 290px;
+  height: 190px;
+  border-radius: 15%;
+}
+.jumbotron{
+  margin-top: 10px;
+  height: 250px;
+  padding-top: 10px;
+  text-align: center;
+}
+.col-lg-4.col-md-6{
+  padding: 15px;
+  
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.dropdown-item {
+  color: blue;
+}
+.dropdown-item:hover{
+  background: #2c3e50;
+  color: white;
+}
+.nav-link:hover{
+  color: white;
+}
+.footer-copyright.text-center{
+  background: #2c3e50;
+  color: white;
+  bottom: 0;
+  padding: 5px;
+  margin-top: 50px;
+}
+#footer-copyright{
+  background: #2c3e50;
+  color: white;
+  margin-top: 30px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.d-block {
+  height: 360px;
+}
+.smallcontainer{
+  width: 100%;
+  margin-top: 30px;
+  height: 250px;
+  border-top:4px solid #2c3e50;
+  text-align: center;
+}
+.divided{
+  width: 33.3%;
+  height: 260px;
+}
+.pagraph{
+  float: left;
+  font-size: 16px;
+  list-style-type: circle;
+}
+.left{
+  float: left;
+  font-size: 25px;
+  padding-top: 10px;
+    border-left:8px solid #2c3e50;
+  border-right:8px solid #2c3e50;
+}
+.center{
+  margin: 0 auto;
+  font-size: 25px;
+  padding-top: 10px;
+
+}
+.right{
+  float: right;
+    border-left:8px solid #2c3e50;
+  border-right:8px solid #2c3e50;
+  font-size: 25px;
+  padding-top: 10px;
+}
+}
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 500px;
+   
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 290px;
+	height: 190px;
+    
+
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+    width: 290px;
+	height: 190px;
+  text-align: center;
+}
+
+/* back, initially hidden pane */
+.back {
+    width: 290px;
+	height: 190px;
+	transform: rotateY(180deg);
+    background-color:whitesmoke;
+    text-align:center;
+}
